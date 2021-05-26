@@ -13,7 +13,7 @@ class Account < ApplicationRecord
   validates_presence_of :first_name, :last_name, :username
 
   def full_name
-    "#{first_name} #{last_name}"
+    "#{username}"
   end
 
   def upvoted_post_ids

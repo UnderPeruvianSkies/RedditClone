@@ -14,3 +14,8 @@
  *= require_self
  */
 @import "bootstrap/scss/bootstrap";
+
+.container
+{
+    background-image: radial-gradient(circle, #91539b, #a75c96, #b86793, #c57591, #cf8491);
+}
